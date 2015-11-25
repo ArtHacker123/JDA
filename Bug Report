@@ -1,0 +1,8 @@
+Thanks Luoye for your open mind！ 
+I have run the training program and found two bugs at present:
+1. Getting the shape indexed feature: to locate one pixel by using mat.at<uchar>(y, x), please consider the input of this function, (x, y) or (y, x), in my opinion, it is the latter one;
+2. Same with 1, when check whether the pixel (x, y) is out of image boundary, "if(y >= h), y = w - 1;" should be "if(y >= h), y = h - 1;"
+
+I am new in Github, so do not know how to report bug.So, ..., uploading this txt file is not a bad way i think.
+
+Looking forwards to discussing technical problems latter. My email: 515281009@qq.com. Thanks. 
